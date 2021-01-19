@@ -10,14 +10,8 @@ with open(file, 'r') as f:
 	for line in f:
 		ip = re.findall( r'[0-9]+(?:\.[0-9]+){3}', line.strip())
 		print(ip)
+	#	ip.append(iplist)
+	#	print(iplist)
 
 
 
-
-
-#outfile = open("out.txt","w") #open output file
-
-#for key in iplist.keys():
- #   line = "%-15s = %s" % (key, iplist[key])
-  #  print line   # print uf desired.
-   # outfile.write(line + "\n")
